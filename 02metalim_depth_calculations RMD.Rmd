@@ -78,7 +78,7 @@ df.BC<-df.BC[, c(4,1:3)]
 head(df.BC)
 ```
 
-##CHUB LAKE
+## CHUB LAKE
 ```{r}
 CB <- dat[dat$LAKE_NAME=="Chub", 1:8]
 CB8 <- filter(CB, MONTH == 8)
@@ -104,7 +104,7 @@ df.CB<-df.CB[, c(4,1:3)]
 head(df.CB)
 ```
 
-##CROSSON LAKE
+## CROSSON LAKE
 ```{r}
 CN <- dat[dat$LAKE_NAME=="Crosson", 1:8]
 CN8 <- filter(CN, MONTH == 8)
@@ -130,7 +130,7 @@ df.CN<-df.CN[, c(4,1:3)]
 head(df.CN)
 ```
 
-##DICKIE LAKE
+## DICKIE LAKE
 ```{r}
 DE <- dat[dat$LAKE_NAME=="Dickie", 1:8]
 DE8 <- filter(DE, MONTH == 8)
@@ -156,7 +156,7 @@ df.DE<-df.DE[, c(4,1:3)]
 head(df.DE)
 ```
 
-##HARP LAKE
+## HARP LAKE
 ```{r}
 HP <- dat[dat$LAKE_NAME=="Harp", 1:8]
 HP8 <- filter(HP, MONTH == 8)
@@ -201,7 +201,7 @@ df.HP<-df.HP[, c(4,1:3)]
 head(df.HP)
 ```
 
-##HENEY LAKE
+## HENEY LAKE
 ```{r}
 HY <- dat[dat$LAKE_NAME=="Heney", 1:8]
 HY8 <- filter(HY, MONTH == 8)
@@ -227,7 +227,7 @@ df.HY<-df.HY[, c(4,1:3)]
 head(df.HY)
 ```
 
-##PLASTIC LAKE
+## PLASTIC LAKE
 ```{r}
 PC <- dat[dat$LAKE_NAME=="Plastic", 1:8]
 PC8 <- filter(PC, MONTH == 8)
@@ -253,7 +253,7 @@ df.PC<-df.PC[, c(4,1:3)]
 head(df.PC)
 ```
 
-##RED CHALK LAKE EAST
+## RED CHALK LAKE EAST
 ```{r}
 RE <- dat[dat$LAKE_NAME=="Red_Chalk_E", 1:8]
 RE8 <- filter(RE, MONTH == 8)
@@ -279,7 +279,7 @@ df.RE<-df.RE[, c(4,1:3)]
 head(df.RE)
 ```
 
-##RED CHALK LAKE MAIN
+## RED CHALK LAKE MAIN
 ```{r}
 RM <- dat[dat$LAKE_NAME=="Red_Chalk_M", 1:8]
 RM8 <- filter(RM, MONTH == 8)
