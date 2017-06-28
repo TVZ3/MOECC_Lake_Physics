@@ -14,10 +14,10 @@ library(dplyr)
 
 ### Load data
 ```{r echo=FALSE, results='hide'}
-setwd("C:\\Users\\adminuser\\Desktop\\EVERYTHING THOMAS\\MOECC Alagae project\\Lake Physics")
+setwd("C:\\Users\\adminuser\\Desktop\\EVERYTHING THOMAS\\gitprojects\\MOECC_Lake_Physics")
 ```
 ```{r results='hide'}
-dat <- read.csv("tempDO_profiles.csv")
+dat <- read.csv("01tempDO_profiles.csv")
 names(dat)
 dat <- dat[, 1:8] # left out the dissolved oxygen column because it had a lot of NAs
 dat <- na.omit(dat) # omit rows with missing temperature and depth values
